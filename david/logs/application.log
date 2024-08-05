@@ -1,0 +1,30 @@
+2024-08-02T17:07:23.207-04:00  INFO 2643889 --- [david] [main] c.monopoly.david.DavidApplicationTests   : Starting DavidApplicationTests using Java 21.0.4 with PID 2643889 (started by david in /home/david/Desktop/coding/Monopoly_2024/david)
+2024-08-02T17:07:23.371-04:00  INFO 2643889 --- [david] [main] c.monopoly.david.DavidApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-08-02T17:07:24.218-04:00  INFO 2643889 --- [david] [main] c.monopoly.david.DavidApplicationTests   : Started DavidApplicationTests in 1.229 seconds (process running for 1.854)
+2024-08-02T17:07:33.357-04:00  INFO 2644197 --- [david] [main] com.monopoly.david.DavidApplication      : Starting DavidApplication using Java 21.0.4 with PID 2644197 (/home/david/Desktop/coding/Monopoly_2024/david/target/classes started by david in /home/david/Desktop/coding/Monopoly_2024/david)
+2024-08-02T17:07:33.358-04:00  INFO 2644197 --- [david] [main] com.monopoly.david.DavidApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-02T17:07:33.952-04:00  INFO 2644197 --- [david] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-02T17:07:33.976-04:00  INFO 2644197 --- [david] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-02T17:07:33.976-04:00  INFO 2644197 --- [david] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02T17:07:34.008-04:00  INFO 2644197 --- [david] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-02T17:07:34.008-04:00  INFO 2644197 --- [david] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 620 ms
+2024-08-02T17:07:34.305-04:00  INFO 2644197 --- [david] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-02T17:07:34.319-04:00  INFO 2644197 --- [david] [main] com.monopoly.david.DavidApplication      : Started DavidApplication in 1.228 seconds (process running for 1.421)
+2024-08-02T17:08:09.037-04:00  INFO 2644197 --- [david] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02T17:08:09.038-04:00  INFO 2644197 --- [david] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-02T17:08:09.039-04:00  INFO 2644197 --- [david] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-02T17:20:31.952-04:00  INFO 2648817 --- [david] [main] c.monopoly.david.DavidApplicationTests   : Starting DavidApplicationTests using Java 21.0.4 with PID 2648817 (started by david in /home/david/Desktop/coding/Monopoly_2024/david)
+2024-08-02T17:20:31.954-04:00  INFO 2648817 --- [david] [main] c.monopoly.david.DavidApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-08-02T17:20:32.733-04:00  INFO 2648817 --- [david] [main] c.monopoly.david.DavidApplicationTests   : Started DavidApplicationTests in 1.002 seconds (process running for 1.67)
+2024-08-02T17:20:40.821-04:00  INFO 2649127 --- [david] [main] com.monopoly.david.DavidApplication      : Starting DavidApplication using Java 21.0.4 with PID 2649127 (/home/david/Desktop/coding/Monopoly_2024/david/target/classes started by david in /home/david/Desktop/coding/Monopoly_2024/david)
+2024-08-02T17:20:40.823-04:00  INFO 2649127 --- [david] [main] com.monopoly.david.DavidApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-02T17:20:41.371-04:00  INFO 2649127 --- [david] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-02T17:20:41.380-04:00  INFO 2649127 --- [david] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-02T17:20:41.381-04:00  INFO 2649127 --- [david] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-02T17:20:41.411-04:00  INFO 2649127 --- [david] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-02T17:20:41.412-04:00  INFO 2649127 --- [david] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
+2024-08-02T17:20:41.617-04:00  INFO 2649127 --- [david] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-02T17:20:41.623-04:00  INFO 2649127 --- [david] [main] com.monopoly.david.DavidApplication      : Started DavidApplication in 1.065 seconds (process running for 1.242)
+2024-08-02T17:21:14.872-04:00  INFO 2649127 --- [david] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02T17:21:14.872-04:00  INFO 2649127 --- [david] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-02T17:21:14.873-04:00  INFO 2649127 --- [david] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

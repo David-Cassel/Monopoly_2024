@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript to Java Backend</title>
+</head>
+<body>
+    <h1>Subtract Two Integers</h1>
+    <form id="subtractForm">
+        <input type="number" id="a" placeholder="Enter first number" required>
+        <input type="number" id="b" placeholder="Enter second number" required>
+        <button type="submit">Subtract</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('subtractForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form from submitting the default way
+
+            const a = document.getElementById('a').value;
+            const b = document.getElementById('b').value;
+
+            // Validate input
+            if (isNaN(a) || isNaN(b)) {
+                document.getElementById('result').innerText = 'Please enter valid numbers.';
+                return;
+            }
+
+            // Construct the URL with query parameters
+            const url = `http://localhost:8080/subtract?a=${a}&b=${b}`;
+
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text(); // Expecting plain text response
+                })
+                .then(data => {
+                    document.getElementById('result').innerText = `Result: ${data}`;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('result').innerText = 'Error occurred';
+                });
+        });
+    </script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript to Java Backend</title>
+</head>
+<body>
+    <h1>Subtract Two Integers</h1>
+    <form id="subtractForm">
+        <input type="number" id="a" placeholder="Enter first number" required>
+        <input type="number" id="b" placeholder="Enter second number" required>
+        <button type="submit">Subtract</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('subtractForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const a = document.getElementById('a').value;
+            const b = document.getElementById('b').value;
+
+            fetch(`http://localhost:8080/subtract?a=${a}&b=${b}`)
+                .then(response => response.text())  // Changed to .text() since the response is plain text
+                .then(data => {
+                    document.getElementById('result').innerText = `Result: ${data}`;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('result').innerText = 'Error occurred';
+                });
+        });
+    </script>
+</body>
+</html> -->
