@@ -12,4 +12,9 @@ public class CalculatorController {
     public int subtract(@RequestParam @NotNull int a, @RequestParam @NotNull int b) {
         return a - b;
     }
+
+    @GetMapping("/add")
+    public int add(@RequestParam @NotNull int a, @RequestParam @NotNull int b) {
+        return a + b;
+    }
 }
