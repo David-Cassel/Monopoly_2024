@@ -1,4 +1,4 @@
-package com.monopoly.david;
+package com.monopoly.david.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,8 +13,5 @@ public class CalculatorController {
         return a - b;
     }
 
-    @GetMapping("/add")
-    public int add(@RequestParam @NotNull int a, @RequestParam @NotNull int b) {
-        return a + b;
-    }
+    
 }
