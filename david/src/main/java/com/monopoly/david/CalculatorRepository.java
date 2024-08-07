@@ -1,9 +1,9 @@
 
-package com.monopoly.david.repository;
+package com.monopoly.david;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import com.monopoly.david.model.SubtractionResult;
-
+@Repository
 public interface CalculatorRepository extends JpaRepository<SubtractionResult, Long> {
 }

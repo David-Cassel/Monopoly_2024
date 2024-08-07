@@ -1,5 +1,5 @@
 
-package com.monopoly.david.model;
+package com.monopoly.david;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

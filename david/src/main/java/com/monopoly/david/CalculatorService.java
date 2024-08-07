@@ -1,4 +1,4 @@
-package com.monopoly.david.service;
+package com.monopoly.david;
 
 import org.springframework.stereotype.Service;
 
